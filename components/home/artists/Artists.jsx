@@ -6,7 +6,8 @@ import { useRouter } from 'expo-router';
 
 import styles from './artists.style';
 import { COLORS, SIZES } from '../../../constants';
-import ActiveTours from '../../common/cards/active/ActiveTours';
+import SignedArtists from '../../common/cards/active/SignedArtists';
+import useFetch from '../../../hook/useFetch';
 
 const Artists = () => {
   const router = useRouter();
@@ -31,7 +32,7 @@ const Artists = () => {
           <FlatList 
             data={[1,2,3,4]}
             renderItem={({ item }) => (
-              <ActiveTours
+              <SignedArtists
               item={item}
               />
             )}
