@@ -1,14 +1,14 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-import styles from './tabs.style'
+import styles from './artists.style'
 
-const Tabs = () => {
+const Artists = () => {
   return (
     <View>
-      <Text>Tabs</Text>
+      <Text>Artists</Text>
     </View>
   )
 }
 
-export default Tabs;
+export default Artists;
