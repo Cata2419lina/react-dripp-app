@@ -6,10 +6,10 @@ import { useRouter } from 'expo-router';
 
 import styles from './artists.style';
 import { COLORS, SIZES } from '../../../constants';
-import SignedArtists from '../../common/cards/active/SignedArtists';
+import Artists from '../../common/cards/artists/Artists';
 import useFetch from '../../../hook/useFetch';
 
-const Artists = () => {
+const SignedArtists = () => {
   const router = useRouter();
   const isLoading = false;
   const error = false;
@@ -46,4 +46,4 @@ const Artists = () => {
   )
 }
 
-export default Artists;
+export default SignedArtists;

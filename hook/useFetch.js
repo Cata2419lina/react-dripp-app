@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { RAPID_API_KEY } from '@env';
 
-const rapidApiKey = RAPID_API_KEY;
 
 const useFetch = ({ endpoint, query }) => {
     const [data, setdata] = useState([]);
@@ -13,7 +11,7 @@ const useFetch = ({ endpoint, query }) => {
         method: 'GET',
         url: `https://billboard-api2.p.rapidapi.com/artist-100/${endpoint}`,
         headers: {
-            'X-RapidAPI-Key': rapidApiKey,
+            'X-RapidAPI-Key': '7b54d464e2msh72374f8752066c8p137f5djsn4880c93028fa',
             'X-RapidAPI-Host': 'billboard-api2.p.rapidapi.com'
         },
         params: { ...query },

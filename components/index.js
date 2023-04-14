@@ -2,8 +2,8 @@ import ScreenHeaderBtn from "./common/header/ScreenHeaderBtn";
 
 // home screen
 import Welcome from "./home/welcome/Welcome";
-import Artists from "./home/artists/Artists";
-import Tours from "./home/tours/Tours";
+import SignedArtists from "./home/artists/SignedArtists";
+import ActiveTours from "./home/tours/ActiveTours";
 
 // job details screen
 import Company from "./jobdetails/company/Company";
@@ -13,17 +13,19 @@ import { default as JobFooter } from "./jobdetails/footer/Footer";
 import Specifics from "./jobdetails/specifics/Specifics";
 
 // common
-import NearbyJobCard from "./common/cards/nearby/NearbyJobCard";
+import Artists from "./common/cards/artists/Artists";
+import Tours from "./common/cards/tours/Tours";
 
 export {
   ScreenHeaderBtn,
   Welcome,
-  Artists,
-  Tours,
+  SignedArtists,
+  ActiveTours,
   Company,
   JobTabs,
   JobAbout,
   JobFooter,
   Specifics,
-  NearbyJobCard
+  Artists,
+  Tours
 };

@@ -3,7 +3,7 @@ import { View, ScrollView, SafeAreaView } from 'react-native';
 import { Stack, useRouter } from 'expo-router';
 
 import { COLORS, icons, images, SIZES } from '../constants';
-import { ScreenHeaderBtn, Artists, Tours, Welcome } from '../components';
+import { ScreenHeaderBtn, SignedArtists, ActiveTours, Welcome } from '../components';
 
 const Home = () => {
     const router = useRouter();
@@ -32,8 +32,8 @@ const Home = () => {
                     }}
                 >
                     <Welcome />
-                    <Artists />
-                    <Tours />
+                    <SignedArtists />
+                    <ActiveTours />
                 </View>
             </ScrollView>
         </SafeAreaView>

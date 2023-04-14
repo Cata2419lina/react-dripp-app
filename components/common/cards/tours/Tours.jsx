@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-import styles from './tours.style'
+import styles from './tourscard.style'
 
 const Tours = () => {
   return (
@@ -11,4 +11,4 @@ const Tours = () => {
   )
 }
 
-export default Tours;
+export default Tours
