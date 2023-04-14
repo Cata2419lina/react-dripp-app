@@ -11,7 +11,7 @@ const useFetch = ({ endpoint, query }) => {
         method: 'GET',
         url: `https://billboard-api2.p.rapidapi.com/artist-100/${endpoint}`,
         headers: {
-            'X-RapidAPI-Key': '7b54d464e2msh72374f8752066c8p137f5djsn4880c93028fa',
+            'X-RapidAPI-Key':,
             'X-RapidAPI-Host': 'billboard-api2.p.rapidapi.com'
         },
         params: { ...query },
